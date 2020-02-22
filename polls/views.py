@@ -8,6 +8,3 @@ def index(request):
         'items': Question.objects.order_by("-pub_date")[:5],
     }
     return HttpResponse(template.render(context, request))
-
-
-
