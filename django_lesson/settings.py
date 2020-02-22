@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# LOGIN_REDIRECT_URL = '/blog'
+LOGIN_REDIRECT_URL = '/blog'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
